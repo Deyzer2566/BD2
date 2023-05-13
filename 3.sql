@@ -1,0 +1,1 @@
+select count(*) from (select ДАТА_РОЖДЕНИЯ from Н_ЛЮДИ GROUP BY ДАТА_РОЖДЕНИЯ) as foo;
